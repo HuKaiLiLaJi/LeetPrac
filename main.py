@@ -2,6 +2,7 @@ from q1 import Sorts
 from my_list import My_list
 from my_list import Node
 from question2 import Solution2
+from question20 import Solution20
 
 
 class ListNode:
@@ -44,21 +45,9 @@ def print_list(head):
 def main():
 
     print("Hello, this is the main program!")
-    obj= Solution2()
-    arr=[3,4,1,5,6,2,0,9,0]
-    #print(obj.break_arr(arr))
-    l1=MyLinkedList()
-    l1.add(1)
-    l1.add(1)
-    l1.add(1)
-    l1.add(3)
-    l1.add(9)
-    l2=MyLinkedList()
-    l2.add(6)
-    l2.add(8)
-    l2.add(4)
-    l2.add(9)
-    print_list(obj.addTwoNumbers(l1.head,l2.head))
+    obj= Solution20()
+    s="([]{}())"
+    print(obj.isValid(s))
   
 
 
