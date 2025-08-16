@@ -3,8 +3,8 @@ from my_list import My_list
 from my_list import Node
 from question2 import Solution2
 from question20 import Solution20
-
-
+from question3 import Solution3
+from question209 import Solution209
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -45,9 +45,9 @@ def print_list(head):
 def main():
 
     print("Hello, this is the main program!")
-    obj= Solution20()
-    s="([]{}())"
-    print(obj.isValid(s))
+    obj= Solution209()
+    
+    print(obj.minSubArrayLen(7,[2,3,1,2,4,3]))
   
 
 
